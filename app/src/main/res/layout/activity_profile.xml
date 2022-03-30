@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgAnkur"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ankur_warikoo"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankur Warikoo"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imgAnkur"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:textColor="#212121"/>
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ankurwarikoo@gmail.com"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_toRightOf="@id/imgAnkur"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/txtCNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+9199999444455"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        android:layout_toRightOf="@id/imgAnkur"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btnMoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Information"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="#EDECE9"
+        android:layout_margin="20dp"
+        android:layout_below="@id/imgAnkur"/>
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#4caf50"
+        android:text="EXIT THE APP"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

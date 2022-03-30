@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgAnkur"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ankur_warikoo"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ankur Warikoo"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgAnkur"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ankurwarikoo@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgAnkur"
+                android:layout_below="@id/txtName"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+9199999444455"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgAnkur"
+                android:layout_below="@id/txtEmail"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgAnuj"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/anuj_bhaiya"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName_Anuj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anuj Sharma"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgAnuj"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail_Anuj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anujsharma@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgAnuj"
+                android:layout_below="@id/txtName_Anuj"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo_Anuj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+9199978444455"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgAnuj"
+                android:layout_below="@id/txtEmail_Anuj"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgManoj"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/manojmuntasir"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName_Manoj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manoj Muntashir"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgManoj"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail_Manoj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="manojmuntashir@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgManoj"
+                android:layout_below="@id/txtName_Manoj"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo_Manoj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+919999954678"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgManoj"
+                android:layout_below="@id/txtEmail_Manoj"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgAnshika"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/anshika_gupta"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName_Anshika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anshika Gupta"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgAnshika"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail_Anshika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anshikagupta@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgAnshika"
+                android:layout_below="@id/txtName_Anshika"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo_Anshika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+9198879444455"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgAnshika"
+                android:layout_below="@id/txtEmail_Anshika"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgNaveen"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/naveen_rawat"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName_naveen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naveen Rawat"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgNaveen"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail_Naveen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="naveenrawat@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgNaveen"
+                android:layout_below="@id/txtName_naveen"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo_Naveen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+9199922544455"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgNaveen"
+                android:layout_below="@id/txtEmail_Naveen"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgMaithili"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/maithili_thakur"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName_maithili"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathili Thakur"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgMaithili"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail_maithili"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="maithilithakur@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgMaithili"
+                android:layout_below="@id/txtName_maithili"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo_maithili"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+9199999444455"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgMaithili"
+                android:layout_below="@id/txtEmail_maithili"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgRanveer"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ranveer_brar"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/txtName_Ranveer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ranveer Brar"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgRanveer"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp"
+                android:textColor="#212121"/>
+            <TextView
+                android:id="@+id/txtEmail_Ranveer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ranveerbrar@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgRanveer"
+                android:layout_below="@id/txtName_Ranveer"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/txtCNo_Ranveer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91925699455"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_toRightOf="@id/imgRanveer"
+                android:layout_below="@id/txtEmail_Ranveer"
+                android:layout_marginTop="5dp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

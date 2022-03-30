@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="new_app_name">Youtubers</string>
+    <string name="enter_mobile">Enter Mobile No.</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register Yourself</string>
+</resources>

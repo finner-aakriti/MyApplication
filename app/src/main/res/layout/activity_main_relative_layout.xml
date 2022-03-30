@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtHeaderLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textColor="#1a237e"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Hello World! This is Aakriti Singh."
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#26c6da"
+        android:textStyle="italic"
+        android:layout_below="@id/txtHeaderLayout"
+        android:textSize="25dp"
+        android:text="Its good to see you all here." />
+    <ImageView
+        android:id="@+id/imgFlyHigh"
+        android:layout_margin="20dp"
+
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:src="@drawable/fly_high"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Click Here"
+        android:background="#00bcd4"
+        android:textStyle="bold"
+        android:textColor="#e1f5fe"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your name."
+        android:inputType="textPassword"
+        android:layout_below="@id/imgFlyHigh"></EditText>
+
+</RelativeLayout>
